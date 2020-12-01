@@ -1,0 +1,68 @@
+<section class="page-top"  style="min-height: 0vh;  padding-bottom: 20px; border:1px solid transparent; height:100%" ngsReveal >
+            
+    <div class="wrapper" style="padding: 0 0 0 0">  
+
+
+<form [formGroup]="myForm" autocomplete="off" (ngSubmit)="submitForm()" novalidate class="gform pure-form pure-form-stacked" method="POST" data-email="soc@agat.by"
+action="https://script.google.com/macros/s/AKfycbxawmfVYWog3LqC9KdjiVCDlGnfs5U6jLO6mIH44mAJgFJtUXA/exec">
+   
+<div class="form-elements" style="display: none">
+    <h3 style="color: white"> Для того, чтобы заказать звонок <br> заполните форму</h3>
+  <!-- Name -->
+    <mat-form-field id="field" class="input-wrapper scrl show" > 
+      <input matInput id="name" name="ФИО:"  formControlName="name">
+      <!-- error -->
+      <mat-error *ngIf="errorHandling('name', 'required')">
+          {{ 'field' | translate }} <strong>{{ 'name' | translate }}</strong> {{ 'notNull' | translate }}
+      </mat-error>
+      <mat-placeholder style="color: white">ФИО</mat-placeholder>
+    </mat-form-field>
+
+
+    <mat-form-field id="field" class="input-wrapper half scrl show">
+        <input ngxPhoneMask  matInput name="Телефон:"  formControlName="phone">
+        <mat-placeholder style="color: white">{{ 'phone' | translate }}</mat-placeholder>
+        <!-- error -->
+        <mat-error *ngIf="errorHandling('phone', 'required')">
+            {{ 'field' | translate }} <strong>{{ 'phone' | translate }}</strong> {{ 'notNull' | translate }}
+        </mat-error>
+
+      </mat-form-field>
+    <!-- Email -->
+    <mat-form-field id="field" class="input-wrapper half scrl show" >
+      <input matInput  name="email"  formControlName="email">
+      <mat-placeholder style="color: white">E-mail</mat-placeholder>
+      <!-- error -->
+      <mat-error *ngIf="errorHandling('email', 'required')">
+          {{ 'field' | translate }} <strong>E-mail</strong> {{ 'notNull' | translate }}
+      </mat-error>
+      <mat-error *ngIf="myForm.get('email').hasError('pattern')">
+          {{ 'field' | translate }} <strong>E-mail</strong>   {{ 'incorrect' | translate }}
+        </mat-error>
+    </mat-form-field>
+
+
+
+     
+    <!-- Submit -->
+    <div  style="width:200px; border: 1px solid transparent; margin-right: 20px;">
+  
+      <input data-brackets-id="9134" (click)="handle($event)"  type="submit" [disabled]="!myForm.valid" class="cta-box-link box-link-light animate-in-view icon-thin-right-arrow animated-in-view fadeInUp" data-animation="fadeInUp" target="_self" analytics-on="" analytics-event="overview.bmw-individual.learn-more.button" value="{{ 'sendBtn' | translate }}" >
+    </div>
+</div>
+
+    <div class="thankyou_message" style="display:block">
+        <h3 style="color:white"> Заявка на звонок отправлена! Наши специалисты перезвонят Вам в ближайшее время!</h3>
+        <div  style="width:200px; border: 1px solid transparent; margin-right: 20px; position: absolute; bottom: 0px;">
+  
+            <input data-brackets-id="9134" (click)="closeDialog()"  type="submit"  class="cta-box-link box-link-light animate-in-view icon-thin-right-arrow animated-in-view fadeInUp" data-animation="fadeInUp" target="_self" analytics-on="" analytics-event="overview.bmw-individual.learn-more.button" value="Ок" >
+          </div>
+      </div>
+
+  </form>
+
+
+
+  </div>
+
+  </section>

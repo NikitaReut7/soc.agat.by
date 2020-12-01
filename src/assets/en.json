@@ -1,0 +1,260 @@
+{
+    "HomeTitle": "CYBERSECURITY",
+    "HomeTitle2": "CENTER",
+    "MenuFeeds": "FEEDS",
+    "MenuFeeds1": "Feeds",
+    "MenuMain": "HOME",
+    "MenuAbout": "About Us",
+    "MenuServices": "SERVICES",
+    "MenuReviews": "REVIEWS",
+    "MenuNews": "NEWS",
+    "MenuContacts": "CONTACTS",
+    "btnSendRequest": "Leave a request",
+    "menu": "Menu",
+    "MenuMain1": "Home",
+    "MenuServices1": "Services",
+    "MenuReviews1": "Reviews",
+    "MenuNews1": "News",
+    "MenuContacts1": "Contacts",
+    "missionFooter": "Our mission is to protect national interests of the Republic of Belarus in cyber space and create a favourable image of the country on international arena.",
+    "partners": "Our partners",
+    "quest": "Got any questions?",
+    "quest1": "Contact us by filling out the feedback form. Our experts will answer you soon.",
+
+    "contact": "Contact information",
+    "contact1": "Feedback form",
+
+    "phn1": "Phone",
+    "addrs": "Address",
+    "schdl1": "Working Hours",
+
+    "btnContact": "Contact Us",
+    "rights": "All rights reserved.",
+    "agat": "© 2019 OJSC «AGAT – Control Systems» – Managing Company of «Geoinformation Control Systems Holding»",
+    "advantages": "Our advantages",
+    "advantage1": "Thanks to the partnership relations with the world’s leading vendors Cybersecurity Center of OJSC “AGAT – Control Systems” has the access to the latest cybersecurity developments.",
+    "advantage2": "Flexible pricing policy allows us to satisfy the requirements of our Customers.",
+    "advantage3": "In the course of actual work the staff of Cybersecurity Center uses modern dedicated software and hardware.",
+    "advantage4": "Working with clients Cybersecurity Center also uses advanced solutions: “bug bounty” method, creation and configuration of turnkey security system, consulting services and other activities.",
+    "advantage5": "Cybersecurity Center of OJSC “AGAT – Control Systems” guarantees safety of any input data and confidentiality to all its Customers according to the strict corporate policy on commercial and official secrets.",
+    "advantage6": "Cybersecurity Center is committed to continuously improving the skills of its employees by ensuring the use of the latest cybersecurity techniques and practices at Customer’s sites.",
+
+   
+    "about": "About",
+    "text1": "As a result of  worsening negative manifestations of the increasing risk and harm caused by cyber-threats, a specialized department was formed in January 2019,  relevant professionals were selected, space was allocated in the company's headquarters, which is equipped with the necessary computer and other equipment.",
+    "text2": "Young and ambitious team of the Cybersecurity Center constantly takes part in events aimed at improving their skills. Our partners help us to achieve better results. We work together with Group IB, Kaspersky Lab, Rostelecom-Solar.",
+    "mission": "MISSION",
+    "text3": "Our mission is to protect the national interests of the Republic of Belarus in cyberspace and to create a favorable image of the country in the international arena through a series of actions to confront the  information security threats of business entities of our country.",
+    "goals": "Our goals consist in comprehensive, full and well-timed countering to information security incidents through research, analysis, prevention, warning, response, counteraction to cyber threats and elimination of such threats and reduction of damage from the negative consequences caused by them.",
+    "text4": "Our goals are to comprehensively, fully and timely confront information security incidents through research, analysis, prevention, response, counteraction against cyber threats, elimination of these threats and reduction of possible caused by negative consequences.",
+    "text5": "Alexander Sergeyevich Mokhnach, who had previously served in the Investigative Committee of the Republic of Belarus and had been directly involved in the investigation of crimes against information security and intellectual property, was appointed the head of the newly created department.",
+    "learnMore": "Learn More",
+
+
+    
+
+    "audit1": "Information security audit",
+    "audit2": "Information security audit allows you to conduct Analysis of the existing policies, procedures of information security for their completeness and effectiveness, Analysis of the risks related to cyber threats. It allows you to establish the recommendations on development of the policies and procedures of information security based on the analysis of the existing level of information security and to Develop the proposals on the use of existing and installation of additional information security tools to increase the level of reliability and security of the company information system.",
+    "pentest1": "Penetration testing",
+    "pentest2": "Penetration test is conducted to assess real capability of the information security system to counter intruders and further reasoning of the activities to provide information security. Penetration test is a required step in conducting risk analysis in many companies. It is always relevant when commissioning new systems or after changes in the IT-infrastructure. Penetration test allows to assess the changing risks and to monitor the implementation of information security processes",
+    "monitoring1": "Monitoring and incident response",
+    "monitoring2": "The monitoring makes it possible to collect and analyze the data on current state of the objects’ information systems and its changes, detect, prevent and eliminate the consequence of cyber threats directed at the controlled information resources, promptly respond to information security incidents. The main task of monitoring is a mitigation of cyber threats risks. The Cybersecurity Center monitors actions in the information system, changes in hardware and software settings which contradict established requirements and policies",
+    "dlp1": "Подробнее",
+    "dlp2": "Подробнее",
+    "checking1": "Подробнее",
+    "checking2": "Подробнее",
+    "documentation1": "Development and implementation of ISMS",
+    "documentation2": "The establishment of an information security management system is necessary for fulfillment by organizations of the requirements of laws and regulations of the Republic of Belarus in the sphere of IT critical assets security, setting up and supporting of IT critical assets operation, bringing of the processes and procedures of information security of the company into compliance with the requirements, statements and recommendations of technical laws and regulations in the sphere of technical regulation and standardization (including the Standard of the Republic of Belarus ISO/IEC 27000)",
+
+    "name": "Name",
+    "company": "Company",
+    "phone": "Phone",
+    "message": "Message",
+
+    "field": "Field",
+    "notNull": "Can not be empty",
+
+    "incorrect": "is incorrect",
+    "onlydigits": "must contain only digits",
+    "sendBtn": "Send Message",
+
+    "stat": "Statistics for 2018",
+
+    "city": "Minsk",
+    "address": "Minsk, Nezavisimosti Avenue, 117",
+    "faks": "Fax",
+    "schdl2": "Mon - Fri : 8.00 – 17.00",
+    "formTitle1": "Fill in the form",
+    "formTitle2": "to contact us",
+    "successMessage": "Message sent! We will contact you soon!",
+
+    "adrCont": "OJSC «AGAT – Control Systems»",
+
+    "adr": "220114 Republic of Belarus, Minsk, 117, Nezavisimosti Avenue",
+    "phn": "Phone: ",
+    "fx": "Fax: ",
+    "ml": "Mail: ",
+    "schdl": "Working hours: 8.00 – 17.00",
+    "lnch": "Lunchtime: 12.00–13.00 (GMT +3)",
+    "wknd": "Days off: Saturday, Sunday",
+
+
+
+
+
+
+
+
+
+
+
+    
+    "auditTitle": "AUDIT",
+    "pentestTitle": "PENTEST",
+    "monitoringTitle": "MONITORING",
+    "documentationTitle": "ISMS",
+    "orientation":"Please use portrait orientation",
+    "audit": "INFORMATION SECURITY AUDIT OF INFORMATION SYSTEMS AND CLIENTS’ LAN.",
+    "pentest": "PENETRATION TESTING USING THE “WHITE”, “GRAY”, “BLACK” BOX METHODS.",
+    "monitoring": "MONITORING AND RESPONDING TO CYBER SECURITY INCIDENTS IN CLIENTS’ LAN.",
+    "documentation": "DEVELOPMENT OF SPECIALIZED DOCUMENTATION FOR ENERGY ENTERPRISES (CRITICAL INFORMATION OBJECTS) IN ACCORDANCE WITH THE REQUIREMENTS OF THE REGULATOR.",
+
+
+
+
+    "MenuAudit": "Audit",
+    "audit9": "INFORMATION SECURITY AUDIT",
+    "audit10": "Information security audit is conducted:",
+    "audit11": "If there is a need to increase common level of company’s information security",
+    "audit12": "If company’s development strategy changes",
+    "audit13": "Upon merger, takeover or acquisition, company amendment, establishing new offices or remote divisions",
+    "audit14": "Upon the emergence of new internal or external requirements in information security sphere including changes to existing laws",
+    "audit15": "Upon changing of company’s management course or leadership team, significant changes in organizational chart",
+    "audit16": "Upon updating of networking services and workstations",
+    "audit17": "In case of significant changes in main business processes",
+    "audit18": "As the result of major changes in company’s IT-infrastructure, introduction of new systems and services",
+    "audit19": "Main tasks solved during the information security audit:",
+    "audit20": "Collection and analysis of initial data on organizational chart and functional structure of the company information system",
+    "audit21": "Analysis of the existing policies, procedures of information security for their completeness and effectiveness",
+    "audit22": "Analysis of the risks related to cyber threats",
+    "audit23": "Establishing the recommendations on development of the policies and procedures of information security based on the analysis of the existing level of information security",
+    "audit24": "Development of the proposals on the use of existing and installation of additional information security tools to increase the level of reliability and security of the company information system",
+    "audit25": "The following components can be checked during audit:",
+    "audit26": "Local corporate network including wireless network",
+    "audit27": "Operating systems",
+    "audit28": "Visualization systems",
+    "audit29": "Data base management system",
+    "audit30": "Information security tools (firewalls, antiviruses, IDS/IPS etc.)",
+     "audit31": "Policies (rules) of information security",
+     "audit32": "Processes of information security",
+     "audit33": "Cybersecurity Center offers three models of information security audit:",
+     "audit34": "General information security audit during which shortcomings of the existing system are identified based on the “best practice” requirements according to actual changes in general tendencies of cyber threats on global and regional (industry) scale. The objectives of such audit are to assess the current security status of client’s information systems and information resources and to develop recommendations for increasing security level of such systems and resources. The recommendations are provided in the form of a detailed report on audit results. A document audit can be conducted additionally;",
+     "audit35": "Detailed information security audit which shortcomings of the existing system are also identified based on the “best practice” requirements according to actual changes in general tendencies of cyber threats on global and regional (industry) scale. The objectives of such audit are to assess the current security status of client’s information systems and information resources and forward correction of critical vulnerabilities to increase security level of such systems and resources by specialists of the Center with participation of Customer’s representatives. Users’ workstations, network and server hardware, documentation on information security may be affected while eliminating vulnerabilities. A detailed evaluation report with all detected and corrected critical vulnerabilities is provided on the basis of the audit and correction;",
+     "audit36": "Information security audit for compliance with the international standard ISO/IEC 27001:2005. This audit model defines compliance of the existing information system of the company to the international standard ISO/IEC 27001:2005 in order to be able to pass certification.",
+     "audit37": "Audit progress (stages):",
+     "audit38": "Activation of audit procedure (signing NDA, holding working meeting to determine audit plan and boundaries, auditors’ powers and authority, purpose and objectives of the audit, identifying responsible officials as representatives of the Customer)",
+     "audit39": "Collection of information (studying existing information security system: organizational-administrative documentation, programs and hardware, interviewing employees)",
+     "audit40": "Analysis of the audit data collected and identification of real / potentially dangerous channels of information leaks, other cyber threats",
+
+     "audit41": "Development of recommendations on improving existing and / or implementing new measures to protect information and counter cyber threats. Preparation and submission of audit report, consultations",
+     "audit42": "On completion of the audit of company’s information security you will get:",
+     "audit43": "The conclusion of cybersecurity experts with assessment of the current state of information system protection level. This document contains a list of detected vulnerabilities and threats, a list of the existing and potential  threats to the information security of your company ranked by importance",
+     "audit44": "Recommendations of the experts. A list of administrative and technical measures that should be taken to increase security of your company. You can do this both by you own specialists and by contacting the specialists of the Cybersecurity Center or other companies",
+     "audit45": "Qualified assistance and advice from the experienced professionals, answers to all your questions regarding information security",
+     "audit46": "Full-service support in the process of implementing individually developed information security solutions",
+     "audit47": "For more information on conducting an information security audit, you can leave a request:",
+
+     "pentest9": "PENETRATION TESTING",
+     "pentest10": "The purpose of the penetration test is to:",
+     "pentest11": "Determine whether the current level of infrastructure security can counter an intrusion attempt of a potential intruder for a definite purpose",
+     "pentest12": "Assess the risks in case of successful intruders’ attacks",
+     "pentest13": "Get recommendations on elimination of vulnerabilities in information security system",
+     "pentest14": "Penetration test can be conducted:",
+     "pentest15": "To assess real capability of the information security system to counter intruders and further reasoning of the activities to provide information security",
+     "pentest16": "When passing a certification audit for compliance with the requirements of standards (for instance, it’s required for PCI DSS)",
+     "pentest17": "Penetration test is a required step in conducting risk analysis in many companies. It is always relevant when commissioning new systems or after changes in the IT-infrastructure. Penetration test allows to assess the changing risks and to monitor the implementation of information security processes",
+     "pentest18": "Depending on the objectives a penetration test package may also include:",
+     "pentest19": "Testing the company’s LAN for the possibility of unauthorized entry",
+     "pentest20": "Testing the company’s web-resources and services (sites, Help-Desk and Service-Desk systems clients open to external users, CRM, bank customers)",
+     "pentest21": "Search and operation of security vulnerabilities. The operation of vulnerabilities should be agreed with the Customer",
+     "pentest22": "Testing for penetration into the company’s wireless network (Wi-Fi)",
+     "pentest23": "Testing monitoring and control system of physical access (access monitoring and control system)",
+      "pentest24": "Pentest can be internal and external. The following elements can be included into the pentest depending on the purposes:",
+     "pentest25": "External test of the network and perimeter is a simulation of the actions of an external intruder (a third-party online community, an employee of a competing company etc.), who acts through a common channel of Internet network or other external uncontrolled networks (for instance, selected connections with other companies). Most often it is carried out using “black box” method, i.e. the person who conducts the pentest initially doesn’t have any information on the company except for the public information (initially doesn’t have access to the “closed” services and internal LAN of the company). It is also allowed to use “gray box” method (for instance, in modeling – a user of internet service of the company or a contractor).",
+     "pentest26": "Internal network test (simulation of the actions of an insider-intruder, i.e. a company’s employee) using “white box” method. In such a case the person who conducts the pentest has the access to LAN with the rights of basic user (or no rights at all) but with physical access to the network or workstation. The test can be done either remotely (via VPN-connection) or with presence of the person who conducts the pentest on the territory of the Customer.",
+     "pentest27": "Social engineering as a direction of external pentest. Examples: spamming infected emails; leaving infected flash drivers in the company. According to the results both the operation of antivirus tools and traffic monitoring tools as well as the actions of employees upon receiving such emails or finding flash drivers are analyzed. The fact of opening such email or using such flash driver on the corporate work place itself can be considered an information security incident and a reason for training employees to basic requirements of information security. It’s possible to use social networks, phone calls and other methods of social engineering.",
+     "pentest28": "Pentest progress (stages):",
+     "pentest29": "Activation of penetration test procedure (signing NDA, agreement, holding working meeting to determine pentest plan and boundaries, operation depth of vulnerabilities, registration of statement of work)",
+     "pentest30": "Collection of information",
+     "pentest31": "Analysis of vulnerabilities",
+     "pentest32": "Operation of vulnerabilities upon consultation with the Customer’s representative and analysis of proactiveness after operation",
+     "pentest33": "Deleting of testing signs (created vulnerable accounts, elevation of privileges) or transmission the information on them to the Customer",
+     "pentest34": "Preparation and issuing of report documentation, holding consultations and other actions according to the agreement",
+     "pentest35": "On completion of the pentest our specialists issue the report on penetration test results which shows the following:",
+     "pentest36": "Detected weaknesses and vulnerabilities (for instance, incorrect assignment of access privileges, redundancy of access privileges, bad passwords, outdated versions of the software, insufficient segmentation of LAN, lacking skills of employees)",
+     "pentest37": "Recommendations on improving information security processes and elimination or localization of the detected vulnerabilities",
+     "pentest38": "For more information on conducting a penetration testing, you can leave a request:",
+     
+    "MenuPentest": "Pentest",
+   
+
+    "monitoring10": "Why it is necessary to connect?",
+    
+    "monitoring11": "Mitigation of cyber threats risks. The Cybersecurity Center monitors actions in the information system, changes in hardware and software settings which contradict established requirements and policies",
+
+    "monitoring12": "Shortage, congestion or lack of internal service personnel for collection and analysis of data on cyber threats and system status. The duty staff of the Cybersecurity Center will identify incidents quickly, propose the ways for meeting the attack and minimizing the damage from its consequence",
+    
+    "monitoring13": "Clear and expected losses. In-house monitoring team – significant costs for equipment, dedicated software, training in a narrow area of activities. Monitoring service on MSSP model – monthly or quarterly fixed payment",
+    
+    "monitoring14": "Monitoring objectives are to:",
+    
+    "monitoring15": "Collect and analyze the data on current state of the objects’ information systems and its changes",
+    
+    "monitoring16": "Detect, prevent and eliminate the consequence of cyber threats directed at the controlled information resources",
+    
+    "monitoring17": "Notify responsible employees on the detection, prevention and elimination of the consequences of cyber attacks",
+    
+    "monitoring18": "Promptly respond to information security incidents",
+   
+    "monitoring19": "Find common cases of incidents",
+    
+    "monitoring20": "Collect information to start an incident investigation",
+    
+    "monitoring21": "Provide the services of information security or information technology with the analytics for management decisions to increase the stability of the systems against attacks",
+    
+    "monitoring22": "Connection work contains four stages:",
+    
+    "monitoring23": "At the first stage we examine the Customer’s information systems and resources the status of which should be monitored by the Cybersecurity Center",
+    "monitoring24": "At the second stage we determine the list of hardware for monitoring, its specifications and configuration and connection diagrams. We debug monitoring processes: determine the responsible manager, define the mechanism for notifying the Customer’s representatives, the depth of response, monitoring format (monitoring time, weekdays and holidays), response format (by person or remotely), we determine and agree with the Customer the report form and level of detalization (additional research such as incident investigation, use of forensics tools and other)",
+    "monitoring25": "The third stage – we install and configure the equipment at the site, connect it to the systems of the Cybersecurity Center via secured communication channels",
+    "monitoring26": "The fourth stage is test operation. We connect previously defined monitoring tools step by step and analyze the input data",
+    "monitoring27": "Then the Cybersecurity Center analytics start the monitoring by processing incidents, establish common causes of the occurrence, monthly evaluate protection level of information resources",
+    "monitoring28": "For more information on monitoring and incident investigation, you can leave a request:",
+    "MenuMonitoring": "Monitoring",
+    "monitoring9": "MONITORING AND INCIDENT RESPONSE",
+
+    
+    "isms10": "When conducting activities to create ISMS the following tasks are achieved:",
+    "isms11": "Fulfillment by organizations of the requirements of laws and regulations of the Republic of Belarus in the sphere of IT critical assets security",
+    "isms12": "Setting up and supporting of IT critical assets operation",
+    "isms13": "Bringing of the processes and procedures of information security of the company into compliance with the requirements, statements and recommendations of technical laws and regulations in the sphere of technical regulation and standardization (including the Standard of the Republic of Belarus ISO/IEC 27000)",
+    "isms14": "As part of ISMS creation the following activities are performed:",
+    "isms15": "Information security policy design",
+    "isms16": "Specifying the set of legal, organizational and technical measures designed to provide information security",
+    "isms17": "Identification of physical and logical boundaries of implementation area of IT critical assets security system",
+    "isms18": "Holding an inventory of assets (information systems and networks, products and physical devices, software, information security tools and information) and IT critical assets classification",
+    "isms19": "Preparation of IT critical asset passport (formular)",
+    "isms20": "Listing of information security threats",
+    "isms21": "Listing of vulnerabilities of information systems",
+    "isms22": "Development of risks assessment method",
+    "isms23": "Holding of security risks assessment",
+    "isms24": "Determining the tool of management necessary for implementation of the selected option of risks processing",
+    "isms25": "For more information on information security management systems, you can leave a request:",
+     "MenuIsms": "ISMS",
+     "isms9": "INFORMATION SECURITY MANAGEMENT SYSTEMS"
+
+     
+
+
+
+}

@@ -1,0 +1,510 @@
+<!--
+
+<div >
+
+        <div class="orientation">
+                <div class="orientation-inner">
+                  <i></i>
+                  <span>   {{ 'orientation' | translate }}</span>
+                </div>
+              </div>
+
+              <header >
+
+                      <span class="logo"   style="background-image:url('assets/logo.png');" (click)="navigateToHome();" ></span>
+
+                      <span class="nav-button" (click)="clickEvent()" >
+                          <i></i>
+                          <i></i>
+                          <i></i>
+                      </span>
+
+                    <nav style="position: fixed; top:0px; overflow-y:hidden">
+
+                        <span class="nav-bg"></span>
+
+                        <div class="nav-inner" >
+                            <div class="nav-wrapper">
+
+                                <ul >
+
+                                    <li style="display:none;"><a class="nav-logo nav-link" style="background-image:url('assets/logo.png')"></a></li>
+
+                                    <li data-delay="1">
+                                            <a class="nav-link"  (click)="navigateToHome();">
+                                              {{ 'MenuMain' | translate }}
+                                            </a>
+
+                                        </li>
+
+                                    <li data-delay="2">
+                                        <a class="nav-link"      (click)="navigateToAbout();">
+                                          {{ 'MenuAbout' | translate }}
+                                        </a>
+
+                                    </li>
+
+                                                        <li data-delay="3">
+                                        <a class="nav-link"  (click)="navigateToServices();">
+                                          {{ 'MenuServices' | translate }}                      </a>
+                                    </li>
+
+                                    <li data-delay="4">
+                                            <a class="nav-link" (click)="navigateToPartners();">
+                                              {{ 'MenuReviews' | translate }}                    </a>
+                                    </li>
+
+                                    <li data-delay="5">
+                                      <a class="nav-link" (click)="navigateToFeeds();">
+                                        {{ 'MenuNews' | translate }}                      </a>
+                                  </li>
+
+                                                        <li data-delay="6">
+                                        <a class="nav-link"  (click)="navigateToContacts();">
+                                          {{ 'MenuContacts' | translate }}                    </a>
+                                    </li>
+
+                                    <li data-delay="6">
+
+                                        <a href="tel:+375 17 267-82-66" class="nav-link">  +375 17 267-82-66</a>
+                                  </li>
+
+                                </ul>
+
+                                <div class="nav-more">
+
+                                  <div class="lang" data-delay="6">
+
+                                      <a id="ru" class="nav-link lang-link" (click)="switchLanguage('ru')">ru</a>
+                                      <a id="en" class="nav-link lang-link"  (click)="switchLanguage('en')">eng</a>
+                                      <a id="bel" class="nav-link lang-link"  (click)="switchLanguage('bel')">бел</a>
+
+                                  </div>
+                              </div>
+
+                            </div>
+                        </div>
+
+                    </nav>
+                </header>
+                <main style="background: #080841" (click)="closeMenu()" >
+<router-outlet ></router-outlet>
+                </main>
+
+<footer (click)="closeMenu()">
+        <div class="wrapper">
+            <div class="footer-inner scrl">
+                <ul class="footer-item">
+                    <li style="max-width: 400px; line-height:1.5em">{{ 'agat' | translate }}</li>
+                    <li>{{ 'rights' | translate }}</li>
+
+                </ul>
+                <ul class="footer-item">
+                        <li>
+                                <a  (click)="navigateToHome();">
+                                  {{ 'MenuMain' | translate }}                </a>
+                            </li>
+                                    <li>
+                        <a  (click)="navigateToAbout();">
+                          {{ 'MenuAbout' | translate }}                  </a>
+                    </li>
+
+                                    <li>
+                        <a  (click)="navigateToServices();">
+                          {{ 'MenuServices' | translate }}                 </a>
+                    </li>                
+                </ul>
+
+                <ul class="footer-item">
+                      <li>
+                              <a  (click)="navigateToPartners();">
+                                {{ 'MenuReviews' | translate }}                 </a>
+                          </li>
+
+      <li>
+            <a  (click)="navigateToFeeds();">
+              {{ 'MenuNews' | translate }}                   </a>
+        </li>
+
+        <li>
+                <a  (click)="navigateToContacts();">
+                  {{ 'MenuContacts' | translate }}                   </a>
+            </li>
+
+      </ul>
+
+      <ul class="footer-item">
+          <li style="max-width: 400px; line-height:1.5em">
+
+                    {{ 'adr' | translate }}               
+              </li>
+
+<li>
+    {{ 'phn' | translate }}   
+    <a href="tel:+375 17 267-82-86" >+375 17 267-82-86</a>
+
+</li>
+
+<li>
+    {{ 'fx' | translate }}   
+    <a href="tel:+375 17 267-24-50" >+375 17 267-24-50</a>
+
+</li>
+
+<li>
+    {{ 'ml' | translate }}  
+    <a href="mailto:soc@agat.by" >soc@agat.by</a> 
+
+</li>
+
+<li>
+
+    {{ 'schdl' | translate }}   
+</li>
+
+<li>
+
+    {{ 'lnch' | translate }}   
+</li>
+
+<li>
+
+    {{ 'wknd' | translate }}   
+</li>
+
+</ul>
+
+            </div>
+        </div>
+      </footer>
+
+</div>
+
+-->
+
+<div class="moto-background moto-website_live"  (window:resize)="onResize($event)">
+
+        <div class="page">
+    
+            <header id="section-header" class="header moto-section" data-widget="section" data-container="section">
+                <div class="moto-widget moto-widget-block moto-bg-color5_5 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="block" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="moto-cell col-sm-12" data-container="container">
+    
+                                <div class="moto-widget moto-widget-row row-fixed moto-justify-content_center moto-bg-color_custom5 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+                                    <div class="container-fluid">
+                                        <div class="row" data-container="container" style="flex-wrap: nowrap;">
+    
+                                            <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                                <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="min-width: 150px;" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+                                                    <div class="moto-widget-text-content moto-widget-text-editable">
+                                                        <p class="moto-text_system_12">&nbsp; &nbsp;<span style="font-size:16px;"><span class="fa"></span></span> &nbsp;<a href="tel:+375173378266" data-action="call" class="moto-link">+375 (17) 337-82-66</a></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="moto-widget moto-widget-row__column moto-cell col-sm-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                                <div id="wid_1525721519_ifqhgmz5f" data-widget-id="wid_1525721519_ifqhgmz5f" class="moto-widget moto-widget-social-links-extended moto-preset-default moto-align-right moto-align-center_mobile-h moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="social_links_extended" data-preset="default">
+                                                    <ul class="moto-widget-social-links-extended__list" class="list">
+                                                        <li class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1" >
+                                                         
+                                                                <p class="moto-text_system_12" >
+                                                                        <a (click)="switchLanguage('ru')" class="try">
+                                                                                RU&nbsp; &nbsp; &nbsp;
+                                                                        </a>
+                                                                        </p>
+                                                        </li>
+    
+                                                        <li class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1">
+                                                            <p class="moto-text_system_12" >
+                                                                <a (click)="switchLanguage('en')" class="try">
+                                                                        ENG&nbsp; &nbsp; &nbsp;
+                                                                </a>
+                                                                </p>
+                                                        </li>
+
+                                                        <mat-menu #menu="matMenu" style="width: 700px !important" >
+                                                                <mat-card  style="margin-top: -8px; margin-bottom:  -8px; margin-right: 0px;">
+                                                                        <mat-card-header>
+                                                                          <div mat-card-avatar class="example-header-image"></div>
+                                                                          <mat-card-title style="font-size: 14px;">Здравствуйте,</mat-card-title>
+                                                                          <mat-card-title style="font-size: 14px;" *ngIf="name != null && name != undefined">{{ name.email }}!</mat-card-title>
+                                                                        </mat-card-header>
+                                                                      
+                                                                        <mat-card-actions>
+                                                                          <button mat-button (click)="navigateToQuitLogin()">Выйти</button>
+                                                                      
+                                                                        </mat-card-actions>
+                                                                      </mat-card>
+                                                                      
+
+                                                        </mat-menu>
+
+                                                        <li  class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1">
+                                                                <p class="moto-text_system_12" >
+                                                                     <mat-icon style="margin-top: 4px;" *ngIf="logged" class="icon" [matMenuTriggerFor]="menu">account_circle</mat-icon>
+                                                                 </p>
+
+                                                                 <p class="moto-text_system_12" >
+                                                                        <mat-icon style="margin-top: 4px;" *ngIf="!logged" class="icon" (click)="navigateToLogin()">account_circle</mat-icon>
+                                                                    </p>
+                                                            </li>
+
+                                                     
+    
+                                                    </ul>
+    
+                                                </div>
+    
+                                            </div>
+    
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="moto-widget moto-widget-container moto-container_header_5aa696b01" data-widget="container" data-container="container" data-css-name="moto-container_header_5aa696b01" data-bg-position="left top" data-moto-sticky="{ }" >
+    
+                                    <div class="moto-widget moto-widget-row row-fixed moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+                                        <div class="container-fluid">
+                                            <div class="row" data-container="container" style="flex-wrap: nowrap;">
+    
+                                                <div class="moto-widget moto-widget-row__column moto-cell col-sm-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                                    <div class="moto-widget moto-widget-row row-gutter-0 moto-justify-content_center moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+                                                        <div class="container-fluid">
+                                                            <div class="row" data-container="container">
+    
+                                                                <div class="moto-widget moto-widget-row__column moto-cell col-xs-3 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                                                    <div data-widget-id="wid_1545577798_l28yc36fw" class="moto-widget moto-widget-image moto-preset-default moto-align-right_mobile-h moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="image">
+                                                                        <a class="moto-widget-image-link moto-link"  routerLink="/home" data-action="page" (click)="closeMenu()">
+                                                                            <img src="../../../assets/logo2.png" class="moto-widget-image-picture lazyload" id="logo" data-id="310" title="" alt="" style="    width: 270%; max-width: 400%;">
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+    
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div  class="moto-widget moto-widget-row__column moto-cell col-sm-8 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                                    <!--moto-widget-menu-mobile-open-->
+                                                    <div data-widget-id="wid_1519501669_60kvjl03d" class="moto-widget moto-widget-menu moto-preset-default moto-align-center moto-align-center_mobile-h moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"
+                                                     [ngClass]="status ? 'moto-widget-menu-mobile-open': ''"   id="mymenu" data-preset="default" data-widget="menu"
+                                                     style="    text-align: center;" >
+                                                        <a href="#" class="moto-widget-menu-toggle-btn" style="padding-top:7px" (click)="toggleClass()"  >
+                                                            <i class="moto-widget-menu-toggle-btn-icon fa fa-bars" style="padding-top:5px"></i>
+                                                        </a>
+                                                        <ul  class="moto-widget-menu-list moto-widget-menu-list_horizontal" (blur)="closeMenu()">
+                                                            <li class="moto-widget-menu-item">
+                                                                <a routerLink="home" data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1  moto-link" id="main" (click)="onBlur()">{{ 'MenuMain' | translate }}</a>
+                                                            </li>
+    
+                                                            <li class="moto-widget-menu-item">
+                                                                <a routerLink="services" data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link" id="services" (click)="onBlur()">{{ 'MenuServices' | translate }}</a>
+                                                            </li>
+    
+                                                            <li class="moto-widget-menu-item">
+                                                                <a routerLink="reviews" data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link" id="reviews" (click)="onBlur()">{{ 'MenuReviews' | translate }}</a>
+                                                            </li>
+    
+                                                            <li class="moto-widget-menu-item">
+                                                                <a routerLink="news" data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link" id="news" (click)="onBlur()">{{ 'MenuNews' | translate }}</a>
+                                                            </li>
+    
+                                                            <li class="moto-widget-menu-item">
+                                                                <a routerLink="contacts" data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link" id="contacts" (click)="onBlur()">{{ 'MenuContacts' | translate }}</a>
+                                                            </li>
+                                                           
+                                                            <li  class="moto-widget-menu-item" >
+                                                                <a routerLink="feeds" data-action="page" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-link" id="feeds" (click)="onBlur()" >{{ 'MenuFeeds' | translate }}</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="moto-widget moto-widget-row__column moto-cell col-sm-2 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                                    <div data-widget-id="wid_1545578319_uelyog3fl" class="moto-widget moto-widget-button moto-preset-default moto-align-right moto-align-center_mobile-h moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto  " data-widget="button">
+                                                        <a routerLink="/contacts" data-action="page" class="moto-widget-button-link moto-size-small moto-link"><span class="fa moto-widget-theme-icon"></span> <span class="moto-widget-button-label">{{ 'btnContact' | translate }}</span></a>
+                                                    </div>
+                                                </div>
+    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+    
+            <router-outlet></router-outlet>
+        </div>
+    
+        <footer id="section-footer" class="footer moto-section" data-widget="section" data-container="section">
+            <div class="moto-widget moto-widget-block moto-bg-color_custom4 moto-spacing-top-large moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto" data-widget="block" data-spacing="lama" style="" data-bg-position="left top" data-draggable-disabled="">
+    
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="moto-cell col-sm-12" data-container="container">
+    
+                            <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top" data-draggable-disabled="">
+    
+                                <div class="container-fluid">
+                                    <div class="row" data-container="container">
+    
+                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa" data-animation="">
+                                                <div class="moto-widget-text-content moto-widget-text-editable">
+                                                    <p class="moto-text_system_14">{{ 'MenuAbout' | translate }}</p>
+                                                </div>
+                                            </div>
+                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-medium moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="amsa" data-animation="" data-draggable-disabled="">
+                                                <div class="moto-widget-text-content moto-widget-text-editable">
+                                                    <p class="moto-text_normal"><span class="moto-color4_3">{{ 'missionFooter' | translate}}</span></p>
+                                                </div>
+                                            </div>
+                                            <div id="wid_1525767948_qw3j010up" data-widget-id="wid_1525767948_qw3j010up" class="moto-widget moto-widget-social-links-extended moto-preset-default moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto  " data-widget="social_links_extended" data-preset="default">
+                                                <ul class="moto-widget-social-links-extended__list">
+                                                  
+
+
+
+                                                    <li class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1">
+                                                         
+                                                            <p class="moto-text_system_12" >
+                                                                    <a (click)="switchLanguage('ru')" class="try1">
+                                                                            RU&nbsp; &nbsp; &nbsp;
+                                                                    </a>
+                                                                    </p>
+                                                    </li>
+
+                                                    <li class="moto-widget-social-links-extended__item moto-widget-social-links-extended__item-1">
+                                                        <p class="moto-text_system_12" >
+                                                            <a (click)="switchLanguage('en')" class="try1">
+                                                                    ENG&nbsp; &nbsp; &nbsp;
+                                                            </a>
+                                                            </p>
+                                                    </li>
+
+    
+                                                </ul>
+                                                <style type="text/css">
+    
+                                                </style>
+                                            </div>
+                                        </div>
+                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-small moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aasa" data-animation="">
+                                                <div class="moto-widget-text-content moto-widget-text-editable">
+                                                    <p class="moto-text_system_14">{{ 'menu' | translate }}</p>
+                                                </div>
+                                            </div>
+                                            <div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aama" style="" data-bg-position="left top">
+    
+                                                <div class="container-fluid">
+                                                    <div class="row" data-container="container">
+    
+                                                        <div class="moto-widget moto-widget-row__column moto-cell col-xs-6 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto"  data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+                                                                <div class="moto-widget-text-content moto-widget-text-editable">
+                                                                    <p class="moto-text_231">
+                                                                        <a data-action="page" data-id="1" class="moto-link" routerLink="/home" >{{ 'MenuMain1' | translate }}</a>
+                                                                        <br>
+                                                                        <a target="_self" data-action="page" data-id="10" class="moto-link" routerLink="/services" >{{ 'MenuServices1' | translate }}</a>
+                                                                        <br>
+                                                                        <a target="_self" data-action="page" data-id="12" class="moto-link" routerLink="/reviews" >{{ 'MenuReviews1' | translate }}</a>
+                                                                        <br>
+                                                                        <a target="_self" data-action="page" data-id="12" class="moto-link" routerLink="/news" >{{ 'MenuNews1' | translate }}</a>
+                                                                        <br>
+                                                                        <a target="_self" data-action="page" data-id="12" class="moto-link" routerLink="/contacts" >{{ 'MenuContacts1' | translate }}</a>
+                                                                    </p>
+                                                                    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                           
+    
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-4 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                             
+                                                <div class="moto-widget moto-widget-row moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto" data-grid-type="xs" data-widget="row" data-spacing="aama" style="" data-bg-position="left top">
+        
+                                                    <div class="container-fluid">
+                                                        <div class="row" data-container="container">
+        
+                                                            <div class="moto-widget moto-widget-row__column moto-cell col-xs-10 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+        
+                                                                <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+                                                                    <div class="moto-widget-text-content moto-widget-text-editable">
+                                                                        <p class="moto-text_231">
+                                                                                <a data-action="page" data-id="1" class="moto-link" >{{ 'adr' | translate}}</a>
+                                                                                <br>
+                                                                                {{ 'phn' | translate }}<a data-action="page" data-id="1" class="moto-link" href="tel:+375173378266"> +375 17 337-82-66</a>
+                                                                            <br>
+                                                                            {{ 'ml' | translate }}<a target="_self" data-action="page" data-id="10" class="moto-link"  href="mailto:soc@agat.by"> soc@agat.by</a>
+                                                                           
+                                                                        </p>
+                                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                               
+        
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-widget-id="wid_1525768399_2elm1z9uh" class="moto-widget moto-widget-divider moto-preset-2 moto-align-left moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-medium moto-spacing-left-auto  " data-widget="divider_horizontal" data-preset="2">
+                                <hr class="moto-widget-divider-line" style="max-width:100%;width:100%;">
+                            </div>
+                            <div class="moto-widget moto-widget-row row-fixed moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-grid-type="sm" data-widget="row" data-spacing="aaaa" style="" data-bg-position="left top">
+    
+                                <div class="container-fluid">
+                                    <div class="row" data-container="container">
+    
+                                        <div class="moto-widget moto-widget-row__column moto-cell col-sm-12 moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" style="" data-widget="row.column" data-container="container" data-spacing="aaaa" data-bg-position="left top">
+    
+                                            <div class="moto-widget moto-widget-text moto-preset-default moto-spacing-top-auto moto-spacing-right-auto moto-spacing-bottom-auto moto-spacing-left-auto" data-widget="text" data-preset="default" data-spacing="aaaa" data-animation="">
+                                                <div class="moto-widget-text-content moto-widget-text-editable">
+                                                    <p class="moto-text_232">{{ 'agat' | translate }}. <a data-action="page" data-id="21" class="moto-link" >{{ 'rights' | translate }}</a></p>
+                                                </div>
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+        <div data-moto-back-to-top-button class="moto-back-to-top-button" (click)="scroll()" id="btnScroll">
+            <a class="moto-back-to-top-button-link">
+                <span class="moto-back-to-top-button-icon fa" style="color: white;"></span>
+            </a>
+        </div>
+    
+    </div>

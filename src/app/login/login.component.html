@@ -1,0 +1,156 @@
+
+  <div style="position: fixed; top: 0px; left: 0px; z-index: 100; background: #fafafa; width: 100%; height: 100%; display: flex; justify-content: center;" class="ov">
+  <mat-card  style="margin: 20px; width:100%; max-width: 400px;   max-height: 415px; top: 15%;" >
+   <form [formGroup]="myForm" autocomplete="off"   >
+      <p style="font-size: 20px; text-align: center; margin-bottom: 20px;">Авторизация</p>
+       
+
+      <div class="signup-form-actions" style="display: flex; justify-content: center; ">
+          
+         <div class="moto-widget-contact_form-buttons" style="max-width: 304px; width: 100%;">
+             <div class="moto-widget moto-widget-button moto-preset-default moto-align-left" data-preset="default" data-align="left">
+               <mat-form-field appearance="outline" style="max-width: 304px; width: 100%;">
+                  <mat-label>E-mail</mat-label>
+                  <input  formControlName="email" matInput  type="email"  />
+                  <mat-error *ngIf="errorHandling('email', 'required')">
+                       Поле <strong>Email</strong> не может быть пустым
+                     </mat-error>
+        
+                     <mat-error *ngIf="myForm.get('email').hasError('pattern')">
+                           Поле <strong>E-mail</strong>   заполнено некорректно
+                        </mat-error>
+              </mat-form-field>
+             </div>
+            
+          </div>
+         </div>
+
+
+         <div class="signup-form-actions" style="display: flex; justify-content: center; ">
+          
+            <div class="moto-widget-contact_form-buttons" style="max-width: 304px; width: 100%;">
+                <div class="moto-widget moto-widget-button moto-preset-default moto-align-left" data-preset="default" data-align="left">
+                  <mat-form-field appearance="outline"  style="max-width: 304px; width: 100%; ">
+                     <mat-label>Пароль</mat-label>
+                    
+                     <input matInput formControlName="password"  type="password" />
+                     <mat-error *ngIf="errorHandling('password', 'required')">
+                         Поле <strong>Пароль</strong> не может быть пустым
+                      </mat-error>
+                 </mat-form-field>
+         
+                </div>
+               
+             </div>
+            </div>
+     
+   
+
+ 
+
+   
+       
+
+        <div class="signup-form-actions" style="display: flex; justify-content: center; margin-bottom: 20px; ">
+          
+         <div class="moto-widget-contact_form-buttons" style="max-width: 304px; width: 100%;">
+             <div class="moto-widget moto-widget-button moto-preset-default moto-align-left" data-preset="default" data-align="left">
+               <re-captcha style="display: flex; justify-content: center; "
+        #captchaRef="reCaptcha"
+        (resolved)="resolved($event)" 
+        siteKey="6LdgQMUUAAAAAJCyEMKy1QKXWbKCrSrRs0qGsMRL"
+      
+        ></re-captcha>
+             </div>
+            
+          </div>
+         </div>
+   
+
+   <div class="signup-form-actions" style="display: flex; justify-content: center; ">
+          
+   <div class="moto-widget-contact_form-buttons" style="max-width: 304px; width: 100%;">
+       <div class="moto-widget moto-widget-button moto-preset-default moto-align-left" data-preset="default" data-align="left">
+          <input type="submit" (click)="onSubmit($event)" [disabled]="!myForm.valid && valid === true"  value="Войти" class="moto-widget-button-link moto-size-medium" style="width: 100%; height: 60px;" data-size="medium">
+            
+       </div>
+      
+    </div>
+   </div>
+
+
+  
+
+ 
+</form>
+</mat-card>
+  </div>
+
+
+
+<!--
+<div  style="position:fixed; overflow:hidden !important; margin:auto; top:0px; display:flex; justify-content: center; left:0px; height:100vh; width:100%; background: #fafafa; z-index: 100;" class="work">
+
+ 
+     
+
+</div>
+
+-->
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+<!--
+
+
+<div class="form-container">
+  <div>
+     <igx-icon id="lockIcon">email</igx-icon>
+     <form #formData='ngForm' (ngSubmit)="onSubmit(formData)">
+        <mat-form-field>
+           <label igxLabel for="email">Email address</label>
+           <input igxInput name="email" type="email" [(ngModel)]="email" required />
+           <igx-suffix>
+              <igx-icon>email</igx-icon>
+           </igx-suffix>
+        </mat-form-field>
+        <mat-form-field>
+           <label igxLabel for="password">Password</label>
+           <input igxInput name="password" type="password" [(ngModel)]="password" required />
+       
+        </mat-form-field>
+
+
+            
+             <mat-form-field id="field" class="input-wrapper half scrl show" appearance="outline">
+              <mat-label>{{ 'name' | translate }}</mat-label>
+           <input matInput name="password" type="password" [(ngModel)]="password" required formControlName="password"  >
+          
+           
+         </mat-form-field>
+
+
+
+
+        <div class="signup-form-actions">
+           <a igxButton="flat" igxRipple routerLink="/login" id="goback">Go back</a>
+           <button id="loginBtn" igxButton="raised" igxRipple type="submit" [disabled]="!formData.valid"
+              class="basic-btn">Log in</button>
+        </div>
+        
+     </form>
+     <a routerLink="/signup" class="alc">Don't have an account?</a>
+  </div>
+</div>
+
+-->
+

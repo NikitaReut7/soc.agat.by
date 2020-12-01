@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule ^(.*) /index.html [NC,L]
+
+RewriteEngine on
+RewriteCond %{HTTPS_REFERER} !^https://(www\.)?localhost [NC]
+RewriteCond %{HTTPS_REFERER} !^https://(www\.)?localhost.*$ [NC]
+RewriteRule \.(gif|jpg|png)$ - [F]

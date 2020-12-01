@@ -1,0 +1,156 @@
+@media(max-width: 754px) {
+	p {
+		font-size: 15px;
+	}
+}
+
+@media(min-width: 1024px) {
+	p {
+		font-size: 25px !important;
+		word-spacing:-2px !important;
+	}
+}
+
+@media(min-width: 3000px) {
+	.page-top {
+		min-height: 53vh !important;
+	}
+}
+
+
+
+
+.animate-in-view {
+	visibility: hidden
+}
+
+.animate-in-view.animated-in-view {
+	visibility: visible !important
+}
+
+
+.animate-in-view.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	-webkit-animation-iteration-count: 1;
+	animation-iteration-count: 1;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-delay: .2s;
+	animation-delay: .2s;
+	-webkit-animation-timing-function: ease;
+	animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden
+}
+
+html {
+	font-family: "Roboto", sans-serif;
+}
+
+.mat-select-arrow {
+	color: white;
+}
+
+@media (max-width: 768px) {
+	#field {
+		width: 100%
+	}
+
+}
+
+::ng-deep .mat-select-value {
+	color: white;
+}
+::ng-deep .mat-select-arrow {
+	color: white;
+}
+
+:root {
+	font-size: 12px;
+	line-height: 1.666;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale
+}
+
+@media (min-width: 720px) {
+	:root {
+		font-size: 12px;
+		line-height: 1.5
+	}
+}
+
+@media (min-width: 1200px) {
+	:root {
+		font-size: 15px
+	}
+}
+
+@media (min-width: 1440px) {
+	:root {
+		font-size: 18px
+	}
+}
+
+body,
+button,
+select {
+	
+	font-size: inherit;
+	line-height: inherit
+}
+
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #414141
+}
+
+a {
+	text-decoration: none;
+	-webkit-transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+	transition: color 0.1s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+}
+
+
+
+
+.cta-box-link.box-link-light {
+	color: white
+}
+
+
+.cta-box-link.box-link-light:hover {
+	background: white;
+	color: black
+}
+
+
+::ng-deep .mat-focused .mat-form-field-label {
+	/*change color of label*/
+	color: white !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+	/*change color of underline*/
+	background-color: white !important;
+  } 
+  
+  ::ng-deep.mat-form-field-ripple {
+   /*change color of underline when focused*/
+   background-color: white !important;;
+  }
+
+  ::ng-deep.mat-dialog-container {
+    overflow: hidden;
+}
