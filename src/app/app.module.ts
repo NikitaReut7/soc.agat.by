@@ -77,6 +77,8 @@ import { Lk4Component } from './components/lk4/lk4.component';
 import { Lk5Component } from './components/lk5/lk5.component';
 import { Lk6Component } from './components/lk6/lk6.component';
 import { Lk7Component } from './components/lk7/lk7.component';
+import { Lk8Component } from './components/lk8/lk8.component';
+import { Lk9Component } from './components/lk9/lk9.component';
 import { LIGHTBOX_CONFIG, LightboxModule } from '@ngx-gallery/lightbox';
 import { GalleryModule } from '@ngx-gallery/core';
 import { ImageViewerModule } from '@hallysonh/ngx-imageviewer';
@@ -141,6 +143,10 @@ export function HttpLoaderFactory(htttp: HttpClient) {
     Lk6Component,
 
     Lk7Component,
+
+    Lk8Component,
+
+    Lk9Component,
 
     FeedsComponent,
 

@@ -21,6 +21,8 @@ import { Lk4Component } from './components/lk4/lk4.component';
 import { Lk5Component } from './components/lk5/lk5.component';
 import { Lk6Component } from './components/lk6/lk6.component';
 import { Lk7Component } from './components/lk7/lk7.component';
+import { Lk8Component } from './components/lk8/lk8.component';
+import { Lk9Component } from './components/lk9/lk9.component';
 
 
 
@@ -50,7 +52,9 @@ const routes: Routes = [
   { path: 'news/corporate-information-security-webinar', component: Lk4Component, canActivate: [SecureService] },
   { path: 'news/main-aspects-of-ensuring-information-security', component: Lk5Component, canActivate: [SecureService] },
   { path: 'news/participation-in-it-conference', component: Lk6Component, canActivate: [SecureService] },
-  {path: 'news/information-protection-day', component: Lk7Component, canActivate: [SecureService] },
+  { path: 'news/information-protection-day', component: Lk7Component, canActivate: [SecureService] },
+  { path: 'news/information-security-certificate', component: Lk8Component, canActivate: [SecureService] },
+  { path: 'news/new-year-greetings', component: Lk9Component, canActivate: [SecureService] },
   
   { path: 'news/сybersecurity-and-сryptography', component: Lk3Component, canActivate: [SecureService] },
   { path: 'news/ctf-2019', component: CtfComponent, canActivate: [SecureService] },
