@@ -4,8 +4,8 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\lk8"
+    "\\src\\app\\components\\partners"
   ],
-  "SelectedNode": "\\src\\app\\components\\lk8\\lk8.component.html",
+  "SelectedNode": "\\src\\app\\components\\partners\\partners.component.html",
   "PreviewInSolutionExplorer": false
 }
